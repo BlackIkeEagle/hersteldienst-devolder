@@ -26,7 +26,7 @@
       <div id='rndbot'>
         <div id='rbl'></div>
         <div class='hr'>
-          <div id='copy'>&copy; 2007 - 2009 Ike Devolder</div>
+			<div id='copy'>&copy; 2006 - <?php echo date('Y'); ?> Audio Video Ktv Hersteldienst Luc Devolder, website ::  Ike Devolder</div>
         </div>
         <div id='rbr'></div>
       </div>
