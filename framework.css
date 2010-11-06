@@ -200,6 +200,7 @@ div.block{
 
 div.blockr{
   float: right;
+  margin-left: 5px;
   font-family: sans-serif;
   font-size: 12px;
   text-align: right;
