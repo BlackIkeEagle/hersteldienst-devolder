@@ -20,7 +20,8 @@ $out .= "[h1]Satelliet[/h1]";
 $out .= "<div style='height:100px;width:95%;'>";
 $out .= "[block][img]images/satontvanger.jpg[/img]\nsatelliet ontvangers[/block]";
 $out .= "[block][img]images/satdish.jpg[/img]\nsatelliet schotels[/block]";
-$out .= "[blockr][url=http://www.vantage-digital.com][img]images/logos/logo_vantage.jpg[/img][/url]\n[url=http://www.digitaaltvkijken.be/dtv/nl/default.asp?WebpageId=21][img]images/logos/logo_konig.jpg[/img][/url]\n[url=http://www.arion.co.kr][img]images/logos/logo_arion.jpg[/img][/url][/blockr]";
+$out .= "[blockr][url=http://www.vantage-digital.com/index.php?a=downloads][img]images/logos/logo_vantage.jpg[/img][/url]\n[url=http://www.digitaaltvkijken.be/dtv/nl/default.asp?WebpageId=21][img]images/logos/logo_konig.jpg[/img][/url][/blockr]";
+$out .= "[blockr][url=http://www.sabsatellite.nl/nl/downloads][img]images/logos/logo_sab.jpg[/img][/url]\n[url=http://www.technomate.com/software_updates.php][img]images/logos/logo_technomate.jpg[/img][/url][/blockr]";
 $out .= "</div>";
 
 echo $text->textout($out);
