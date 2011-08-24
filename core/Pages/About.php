@@ -11,7 +11,7 @@ class Pages_About extends APages{
 	 */
 	public function index() {
 		if($this->pageType == IPages::JSON) {
-			$this->document->tool = SITE;
+			$this->document->site = SITE;
 			$this->document->version = VERSION;
 			$this->document->version_ext = VER_EXT;
 			$this->document->creator = CREATOR;
@@ -22,7 +22,7 @@ class Pages_About extends APages{
 			$appInfo->setAttribute('class', 'about');
 
 			$toolname = $this->document->createElement('tr');
-			$toolname->appendChild($this->document->createElement('td', 'tool:'));
+			$toolname->appendChild($this->document->createElement('td', 'site:'));
 			$toolname->appendChild($this->document->createElement('td', SITE));
 
 			$version = $this->document->createElement('tr');
