@@ -1,0 +1,81 @@
+/** {{{ MULTIMENU **/
+#menu {
+	position: relative;
+	height: 35px;
+	/*background-image: url('../images/sn_bg.gif');*/
+	border: 1px solid #aaa;
+	background-color: #ddd;
+	margin-bottom: 10px;
+	Z-Index: 250;
+}
+
+#menu ul {
+	float: left;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	position: relative;
+	float: left;
+	margin: 0;
+	height: 35px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-right: 1px solid #aaa;
+	line-height: 35px;
+	vertical-align: baseline;
+	font-weight: bold;
+	color: #0158d6;
+	cursor: pointer;
+}
+
+#menu li:hover, #menu li.selected {
+	background-color: #eee;
+}
+
+#menu li:hover > ul.sub {
+	display: block;
+}
+
+#menu ul li a{
+	display: block;
+	line-height: 35px;
+	vertical-align: baseline;
+	font-weight: bold;
+	min-width: 80px;
+}
+
+#menu ul.sub {
+	display: none;
+	position: absolute;
+	top: 4px;
+	left: 120px;
+}
+
+#menu ul.first {
+	left: 10px;
+	top: 35px;
+}
+
+#menu ul.sub li {
+	display: block;
+	float: none;
+	width: 120px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	background-color: #ddd;
+	min-width: 80px;
+}
+
+#menu ul.sub li:first-child {
+	border-top: 1px solid #aaa;
+}
+
+#menu ul.sub li:hover {
+	background-color: #eee;
+}
+/** MULTIMENU }}} **/

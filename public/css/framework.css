@@ -1,0 +1,262 @@
+html{
+  overflow: hidden;
+  /*height: 100%; [> to fill entire browser window in konqueror <]*/
+}
+
+body{
+  background-color: #BBB;
+  text-align: center; /*to center the divs in IE */
+  margin: 0px;
+  padding: 0px;
+  scrollbar-arrow-color: #AA0000;
+  scrollbar-face-color: #FFFFFF;
+  scrollbar-highlight-color: #AA0000;
+  scrollbar-3dlight-color: #FFFFFF;
+  scrollbar-shadow-color: #AA0000;
+  scrollbar-darkshadow-color: #FFFFFF;
+  scrollbar-track-color: #FFFFFF;
+}
+
+div{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div#site{
+  position : relative;
+  top : 0px;
+  width : 780px;
+  height : 595px;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+div#hoofd{
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  width: 780px;
+  height: 140px;
+  background-image: url('images/banner.gif');
+}
+
+div#menu{
+  position: absolute;
+  top: 85px;
+  left : 38px;
+  width: 704px;
+  height: 20px;
+  line-height: 20px;
+}
+
+div#menu div{
+  display:block;
+  float:left;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  background: url('images/mnu_bgn.gif');
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #AA0000;
+  cursor: pointer;
+}
+
+div#menu div:hover{
+  color: white;
+  background: url('images/mnu_hov.gif');
+}
+
+div#menu div#selected{
+  background: url('images/mnu_sel.gif');
+  cursor: pointer;
+}
+
+div#menu div#selected:hover{
+  color: #AA0000;
+  font-style: italic;
+}
+
+div#rndtop{
+  position: absolute;
+  top: 105px;
+  left : 0px;
+  width: 780px;
+  height: 10px;
+  font-size: 1px; /* make IE adapt the size */
+}
+
+div#rtl{
+  float: left;
+  background: url('images/rtl.gif') no-repeat;
+  width: 10px;
+  height: 10px;
+}
+
+div#rtr{
+  float: right;
+  background: url('images/rtr.gif') no-repeat;
+  width: 10px;
+  height: 10px;
+}
+
+div.hr{
+  float: left;
+  background: white;
+  width:760px;
+  height: 10px;
+}
+
+div#inhoud{
+  position: absolute;
+  top: 115px;
+  left : 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: auto;
+  width: 760px;
+  height: 470px;
+  background-color: white;
+  text-align: left; /* make sure all elements start on the left side */
+}
+
+div#rndbot {
+  position: absolute;
+  top: 585px;
+  left : 0px;
+  width: 780px;
+  height: 10px;
+  font-size: 1px; /* make IE adapt the size */
+}
+
+div#rbl{
+  float: left;
+  background: url('images/rbl.gif') no-repeat;
+  width: 10px;
+  height: 10px;
+}
+
+div#rbr{
+  float: right;
+  background: url('images/rbr.gif') no-repeat;
+  width: 10px;
+  height: 10px;
+}
+
+div#login{
+  float: left;
+  margin-left: 2px;
+  height: 10px;
+  font-size: 8px;
+}
+
+div#login a{
+  font-size: 8px;
+  font-family:sans-serif;
+  color: #AA0000;
+  text-decoration: none;
+}
+
+div#copy{
+  float: right;
+  margin-right: 2px;
+  height: 10px;
+  background: transparent;
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #BBB;
+}
+
+h1{
+  color: #AA0000;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-bottom: 1px solid #AA0000;
+}
+
+h2{
+  color: #AA0000;
+  font-family: sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #AA0000;
+}
+
+p{
+  color: black;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+div.block{
+  float: left;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align:center;
+}
+
+div.blockr{
+  float: right;
+  margin-left: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: right;
+}
+
+a{
+  font-family: inherit;
+  font-size: inherit;
+  color: #0000AA;
+  text-decoration: none;
+}
+
+span.link{
+  font-family: inherit;
+  font-size: inherit;
+  color: #0000AA;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input{
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #0000AA;
+  border: 1px solid #AA0000;
+  background: white;
+  margin-left:0px;
+  width: 300px;
+}
+
+input.button{
+  width: auto;
+}
+
+textarea{
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #0000AA;
+  border: 1px solid #AA0000;
+  background: white;
+  margin-left:0px;
+}
+
+td.label{
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align:right;
+  width:10px;
+  color: black;
+}
+
+img{
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+span.linksep{
+  width : 20px;
+}

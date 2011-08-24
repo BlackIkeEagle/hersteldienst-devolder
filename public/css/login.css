@@ -1,0 +1,20 @@
+/** {{{ LOGIN **/
+#login input {
+	font-size: x-small;
+	margin-left: 1px;
+	margin-right: 1px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	width: 120px;
+}
+
+#login .loggedInMessage {
+	border: 0;
+	width: 200px;
+}
+
+#login input[type='submit'] {
+	background-color: #ddd;
+	width: 50px;
+}
+/** }}} **/
