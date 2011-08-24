@@ -15,7 +15,7 @@ class User {
 
 	public function __construct($userData) {
 		if(isset($userData['username']) &&
-			isset($userData['password']) &&
+			//isset($userData['password']) &&
 			isset($userData['email'])
 		) {
 			foreach($userData as $name => $value) {

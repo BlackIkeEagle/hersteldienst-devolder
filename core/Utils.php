@@ -7,7 +7,7 @@
 class Utils {
 	const SALT_LENGTH = 15;
 
-	public static function phHash($string, $salt = null) {
+	public static function beHash($string, $salt = null) {
 		$salt = (!empty($salt) ?
 			$salt :
 			self::genSalt(self::SALT_LENGTH-1).'$'
@@ -21,17 +21,15 @@ class Utils {
 
 	private static function runHash($string, $salt, $hash = null) {
 		return hash('sha512', $string.$salt.(!empty($hash) ? $hash : ''));
-		//return sha1($string.$salt.(!empty($hash) ? $hash : ''));
 	}
 
 	private static function genSalt($length = 10) {
 		return substr(base64_encode(self::generateRandomString($length)), 0, $length);
 	}
 
-	public static function phCheckHash($string, $hash) {
+	public static function beCheckHash($string, $hash) {
 		$salt = substr($hash, 0, self::SALT_LENGTH);
-		echo "DBG:: hash:: ".self::phHash($string, $salt)."\n";
-		return self::phHash($string, $salt) == $hash ?
+		return self::beHash($string, $salt) == $hash ?
 			true :
 			false;
 	}
