@@ -1,7 +1,7 @@
 <?php
 class Document_XHtmlDefault{
 	public static function xhtml(&$document) {
-		$document->setTitle(SITE.' '.VERSION.(VER_EXT !== '' ? ' ('.VER_EXT.')' : ''));
+		$document->setTitle(SITE);
 
 		$document->addCss('public/css/base.css');
 
