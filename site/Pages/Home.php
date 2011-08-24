@@ -21,12 +21,12 @@ class Pages_Home extends APages{
 			$content->appendChild($titleLocation);
 			$location = $this->document->createElement(
 				'p',
-				'Audio Video Ktv Hersteldienst Luc Devolder is gelegen in de wijk Nieuwenhove te Oostkamp, daar dit een zeer centrale locatie is in de gemeente Oostkamp kunnen wij ook een zeer snelle bediening garanderen naar de deelgemeenten Oostkamp, Waardamme, Hertsberge en Ruddervoorde.'
+				'Audio Video Ktv Hersteldienst Luc Devolder is gelegen in de wijk Nieuwenhove te Oostkamp. Daar dit een zeer centrale locatie is in de gemeente Oostkamp kunnen wij ook een zeer snelle bediening garanderen naar de deelgemeenten Oostkamp, Waardamme, Hertsberge en Ruddervoorde.'
 			);
 			$content->appendChild($location);
 			$location = $this->document->createElement(
 				'p',
-				'De service die geleverd wordt, is natuurlijk niet enkel beperkt tot de gemeente Oostkamp, er wordt altijd gestreefd naar de meest kwalitatieve oplossing voor problemen in gans Vlaanderen, meer specifiek West-Vlaanderen en Oost-Vlaanderen.'
+				'De service die geleverd wordt, is natuurlijk niet enkel beperkt tot de gemeente Oostkamp. Er wordt altijd gestreefd naar de meest kwalitatieve oplossing voor problemen in gans Vlaanderen, meer specifiek West-Vlaanderen en Oost-Vlaanderen.'
 			);
 			$content->appendChild($location);
 
@@ -37,7 +37,7 @@ class Pages_Home extends APages{
 			$content->appendChild($titleWhat);
 			$what = $this->document->createElement(
 				'p',
-				'Hebt u kapotte toestellen, problemen bij installatie of gewoon nieuw materiaal nodig, dan kan u altijd bij ons terecht. Kwaliteit wordt zeer hoog in het vaandel gedragen voor al uw toestellen, TV, Flatscreen, TFT, DVD, BluRay, Radio, Cd-speler, Versterker, Boxen, Satellietsysteem, Digitaal Tv.'
+				'Heeft u kapotte toestellen, problemen bij installatie of gewoon nieuw materiaal nodig, dan kan u altijd bij ons terecht. Kwaliteit wordt zeer hoog in het vaandel gedragen. Dit voor al uw toestellen: TV, Flatscreen, TFT, DVD, BluRay, Radio, Cd-speler, Versterker, Boxen, Satellietsysteem, Digitaal Tv.'
 			);
 			$content->appendChild($what);
 
