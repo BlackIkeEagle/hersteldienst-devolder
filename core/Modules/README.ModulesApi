@@ -1,0 +1,28 @@
+HowTo:
+------------------------------------------------------------
+
+Modules are small blocks defined for easy reuse in other
+projects.
+
+in a module one can define following functions:
+- onEntry()
+	execute immediatly, before output is generated
+
+- beforeContent()
+	exectute before filling the content, this for some
+	special cases as menu's and loginboxes, ...
+
+- afterContent()
+	as it says, after the main content is generated
+
+- onExit()
+	the last of all
+
+SPECIAL:
+------------------------------------------------------------
+
+if some modules depend on each other, just make sure those
+are added in that order, then all will go well
+
+we could add a dependency flag to let the code handle it
+but that would introduce an unneccessary complexity
