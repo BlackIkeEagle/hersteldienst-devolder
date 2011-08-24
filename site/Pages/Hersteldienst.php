@@ -16,7 +16,7 @@ class Pages_Hersteldienst extends APages{
 
 			$repair = $this->document->createElement(
 				'p',
-				'De herstellingen worden in onze eigen werkplaats uitgevoerd, dankzij een jarenlange ervaring worden deze op een snelle en nauwkeurige manier uitgevoerd.'
+				'De herstellingen worden in onze eigen werkplaats uitgevoerd. Dankzij een jarenlange ervaring worden deze op een snelle en nauwkeurige manier afgehandeld.'
 			);
 			$content->appendChild($repair);
 			$repair = $this->document->createElement(
