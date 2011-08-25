@@ -3,6 +3,8 @@ class Document_XHtmlDefault{
 	public static function xhtml(&$document) {
 		$document->setTitle(SITE);
 
+		$document->setFavicon('public/images/icons/favicon.ico');
+
 		$document->addCss('public/css/base.css');
 
 		// {{{ HEADER

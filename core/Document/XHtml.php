@@ -47,6 +47,14 @@ class Document_XHtml {
 	 * @access private
 	 */
 	private $titleAppend;
+	/**
+	 * favicon.
+	 * if set thisone contains the path to the favicon
+	 *
+	 * @var string
+	 * @access private
+	 */
+	private $favicon;
 
 	/**
 	 * init your xhtml document.
@@ -136,6 +144,15 @@ class Document_XHtml {
 			return $title;
 		} else {
 			return null;
+		}
+	}
+
+	public function setFavicon($path) {
+		if(!empty($path)) {
+			$this->favicon = $path;
+			return true;
+		} else {
+			return true;
 		}
 	}
 
@@ -229,6 +246,16 @@ class Document_XHtml {
 		$this->document->preserveWhitespace = false;
 		$title = $this->document->createElement('title', $this->getFullTitle());
 		$this->head->appendChild($title);
+		if(!empty($this->favicon)) {
+			$favicon = $this->document->createElement('link');
+			$favicon->setAttribute('rel', 'shortcut icon');
+			$favicon->setAttribute('href', $this->favicon);
+			$this->head->appendChild($favicon);
+			$favicon = $this->document->createElement('link');
+			$favicon->setAttribute('rel', 'icon');
+			$favicon->setAttribute('href', $this->favicon);
+			$this->head->appendChild($favicon);
+		}
 		$html =& $this->document->getElementsByTagName('html')->item(0);
 		$html->appendChild($this->head);
 		$html->appendChild($this->body);
