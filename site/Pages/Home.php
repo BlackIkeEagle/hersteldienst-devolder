@@ -37,7 +37,7 @@ class Pages_Home extends APages{
 			$content->appendChild($titleWhat);
 			$what = $this->document->createElement(
 				'p',
-				'Heeft u kapotte toestellen, problemen bij installatie of gewoon nieuw materiaal nodig, dan kan u altijd bij ons terecht. Kwaliteit wordt zeer hoog in het vaandel gedragen. Dit voor al uw toestellen: TV, Flatscreen, TFT, DVD, BluRay, Radio, Cd-speler, Versterker, Boxen, Satellietsysteem, Digitaal Tv.'
+				'U kan altijd bij ons terecht om uw kapot toestel te laten herstellen. Wij helpen wanneer u problemen hebt bij de installatie van uw toestellen. Wenst u nieuw materiaal aan te kopen, ook dan kan u beroep doen op onze ervaring en service. Kwaliteit wordt zeer hoog in het vaandel gedragen. Dit voor al uw toestellen: TV, Flatscreen, TFT, DVD, BluRay, Radio, Cd-speler, Versterker, Boxen, Satellietsysteem, Digitaal Tv.'
 			);
 			$content->appendChild($what);
 
