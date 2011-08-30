@@ -1,5 +1,13 @@
 <?php
 class Pages_Verkoop extends APages{
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public function init() {
+		$this->data = new Data_Verkoop();
+	}
+
 	/**
 	 * {@inheritdoc}
 	 */
@@ -28,6 +36,9 @@ class Pages_Verkoop extends APages{
 			$imgHifi->setAttribute('src', 'public/images/audio.png');
 			$imgHifi->setAttribute('alt', 'hifi en professionele audio');
 			$content->appendChild($imgHifi);
+			$suppliersHifi = $this->document->createElement('div');
+			$this->suppliersList($suppliersHifi, $this->data->getSuppliersAudio());
+			$content->appendChild($suppliersHifi);
 
 			$titleTelevision = $this->document->createElement(
 				'h2',
@@ -48,6 +59,20 @@ class Pages_Verkoop extends APages{
 			$imgSatellite->setAttribute('src', 'public/images/satellite.png');
 			$imgSatellite->setAttribute('alt', 'satelliet');
 			$content->appendChild($imgSatellite);
+		}
+	}
+
+	private function suppliersList(&$suppliersBox, $suppliersData) {
+		foreach($suppliersData as $supplier) {
+			$link = $this->document->createElement('a');
+			$link->setAttribute('href', $supplier['url']);
+			$link->setAttribute('target', '_blank');
+			$link->setAttribute('title', $supplier['name']);
+			$image = $this->document->createElement('img');
+			$image->setAttribute('src', 'public/images/'.$supplier['logo']);
+			$image->setAttribute('alt', $supplier['name']);
+			$link->appendChild($image);
+			$suppliersBox->appendChild($link);
 		}
 	}
 }
