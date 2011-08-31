@@ -14,6 +14,7 @@ class Pages_Verkoop extends APages{
 	public function index() {
 		if($this->pageType == IPages::XHTML) {
 			$this->document->setTitleAppend('verkoop');
+			$this->document->addCss('public/css/verkoop.css');
 			$content = $this->document->getElementById('content');
 
 			$titleSales = $this->document->createElement(
@@ -36,9 +37,10 @@ class Pages_Verkoop extends APages{
 			$imgHifi->setAttribute('src', 'public/images/audio.png');
 			$imgHifi->setAttribute('alt', 'hifi en professionele audio');
 			$content->appendChild($imgHifi);
-			$suppliersHifi = $this->document->createElement('div');
-			$this->suppliersList($suppliersHifi, $this->data->getSuppliersAudio());
-			$content->appendChild($suppliersHifi);
+			$suppliers = $this->document->createElement('div');
+			$suppliers->setAttribute('class', 'suppliers');
+			$this->suppliersList($suppliers, $this->data->getSuppliersAudio());
+			$content->appendChild($suppliers);
 
 			$titleTelevision = $this->document->createElement(
 				'h2',
@@ -49,6 +51,10 @@ class Pages_Verkoop extends APages{
 			$imgTelevision->setAttribute('src', 'public/images/television.png');
 			$imgTelevision->setAttribute('alt', 'lcd tv en home cinema');
 			$content->appendChild($imgTelevision);
+			$suppliers = $this->document->createElement('div');
+			$suppliers->setAttribute('class', 'suppliers');
+			$this->suppliersList($suppliers, $this->data->getSuppliersTelevision());
+			$content->appendChild($suppliers);
 
 			$titleSatellite = $this->document->createElement(
 				'h2',
@@ -59,6 +65,10 @@ class Pages_Verkoop extends APages{
 			$imgSatellite->setAttribute('src', 'public/images/satellite.png');
 			$imgSatellite->setAttribute('alt', 'satelliet');
 			$content->appendChild($imgSatellite);
+			$suppliers = $this->document->createElement('div');
+			$suppliers->setAttribute('class', 'suppliers');
+			$this->suppliersList($suppliers, $this->data->getSuppliersSatellite());
+			$content->appendChild($suppliers);
 		}
 	}
 
