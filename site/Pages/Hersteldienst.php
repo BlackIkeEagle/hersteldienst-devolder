@@ -28,6 +28,7 @@ class Pages_Hersteldienst extends APages{
 			$repairImg = $this->document->createElement('img');
 			$repairImg->setAttribute('src', 'public/images/lcd_4.jpg');
 			$repairImg->setAttribute('alt', 'lcd open for repair');
+			$repairImg->setAttribute('class', 'center');
 			$content->appendChild($repairImg);
 		}
 	}
