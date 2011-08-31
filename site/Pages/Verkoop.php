@@ -76,7 +76,8 @@ class Pages_Verkoop extends APages{
 		foreach($suppliersData as $supplier) {
 			$link = $this->document->createElement('a');
 			$link->setAttribute('href', $supplier['url']);
-			$link->setAttribute('target', '_blank');
+			$link->setAttribute('rel', 'external');
+			$link->setAttribute('target', '_blank'); // non valid but works very fine
 			$link->setAttribute('title', $supplier['name']);
 			$image = $this->document->createElement('img');
 			$image->setAttribute('src', 'public/images/'.$supplier['logo']);
