@@ -14,7 +14,7 @@ class Pages_404 extends APages{
 			$img->setAttribute('class', 'center');
 			$content->appendChild($img);
 
-			$err = $this->document->createElement('p', 'Oeps, de pagina die u wenst te bezoeken is niet gevonden');
+			$err = $this->document->createElement('p', 'Oeps, de pagina die u wenst te bezoeken werd niet gevonden');
 			$err->setAttribute('class', 'center hersteldienstfail');
 			$content->appendChild($err);
 
