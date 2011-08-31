@@ -102,6 +102,12 @@ textarea {
 .info {
 	background-image: url('../images/icons/dialog-information.png');
 }
+
+.hersteldienstfail {
+	margin-top: 30px;
+	font-size: 22px;
+	color: #AA0000;
+}
 /** BASE }}} **/
 
 /** {{{ DEFAULT LAYOUT **/
