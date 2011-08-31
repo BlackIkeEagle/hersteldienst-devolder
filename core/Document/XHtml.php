@@ -210,6 +210,10 @@ class Document_XHtml {
 		return $this->document->createElement($name, $value);
 	}
 
+	public function createTextNode($content = '') {
+		return $this->document->createTextNode($content);
+	}
+
 	/**
 	 * get a specific element ( mostly placeholders )
 	 *
