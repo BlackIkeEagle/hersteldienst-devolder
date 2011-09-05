@@ -94,6 +94,10 @@ textarea {
     border-radius: 5px;
 }
 
+.wrong {
+	color: #f00;
+}
+
 .error {
 	background-image: url('../images/icons/dialog-error.png');
 	color: #f00;
