@@ -260,7 +260,6 @@ class Pages_Contact extends APages {
 					isset(Session::sess()->mailSend->message)
 				) {
 					$mailHersteldienst = 'info@hersteldienst-devolder.be';
-					$mailHersteldienst = 'ike.devolder@herecura.be';
 					//send the mail
 					$toHerst = array();
 					$toClient = array();
