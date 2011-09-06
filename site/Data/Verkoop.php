@@ -16,7 +16,7 @@ class Data_Verkoop {
 				'name' => 'Jb Systems',
 				'url' => 'http://www.beglec.com/',
 				'logo' => 'logos/jbsystems.jpg'
-			)
+			),
 		);
 	}
 
