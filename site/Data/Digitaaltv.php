@@ -11,7 +11,7 @@ class Data_Digitaaltv {
 				'name' => 'Telesat',
 				'url' => 'http://www.telesat.be/',
 				'logo' => 'logos/telesat.jpg'
-			)
+			),
 		);
 	}
 
@@ -26,7 +26,7 @@ class Data_Digitaaltv {
 				'name' => 'Telenet Digitaal Tv',
 				'url' => 'http://telenet.be/222/0/1/nl/thuis/televisie.html',
 				'logo' => 'logos/telenetdigitaltv.jpg'
-			)
+			),
 		);
 	}
 }
