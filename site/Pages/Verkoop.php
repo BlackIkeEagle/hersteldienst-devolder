@@ -1,5 +1,5 @@
 <?php
-class Pages_Verkoop extends APages{
+class Pages_Verkoop extends APages {
 
 	/**
 	 * {@inheritdoc}
