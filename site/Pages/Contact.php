@@ -219,12 +219,14 @@ class Pages_Contact extends APages {
 			$mailInput->setAttribute('type', 'submit');
 			$mailInput->setAttribute('name', 'sendMail');
 			$mailInput->setAttribute('value', 'verzend');
+			$mailInput->setAttribute('class', 'btn');
 			$mailElement->appendChild($mailInput);
 			$mailRow->appendChild($mailElement);
 			$mailElement = $this->document->createElement('td');
 			$mailInput = $this->document->createElement('input');
 			$mailInput->setAttribute('type', 'reset');
 			$mailInput->setAttribute('value', 'leegmaken');
+			$mailInput->setAttribute('class', 'btn');
 			$mailElement->appendChild($mailInput);
 			$mailRow->appendChild($mailElement);
 
