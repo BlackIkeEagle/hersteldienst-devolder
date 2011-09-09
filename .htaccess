@@ -1,0 +1,5 @@
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^.*(/public|/robots\.txt|/favicon\.ico)
+RewriteRule . index.php
