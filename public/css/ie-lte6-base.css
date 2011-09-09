@@ -1,0 +1,20 @@
+#header {
+	position: absolute;
+	top: 0px;
+	width: 784px; /* extra width */
+	height: 130px;
+	background-image: url('../images/header-bgnd.png');
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	height: 20px;
+	width: 784px; /* extra width */
+	border-top: 1px solid #AAA;
+	padding: 0;
+	background-color: white;
+	text-align: right;
+	color: #AAA;
+	font-size: small;
+}
