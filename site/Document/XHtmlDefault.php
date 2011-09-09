@@ -2,10 +2,18 @@
 class Document_XHtmlDefault{
 	public static function xhtml(&$document) {
 		$document->setTitle(SITE);
+		$keywords = 'audio, radio, cd, dvd, video, tv, tft, plasma, satelliet, satellite, '.
+			'audio oostkamp, video oostkamp, tv oostkamp, satelliet oostkamp, blu ray oostkamp, '.
+			'bluray oostkamp, luc devolder, devolder luc, luc, devolder, elektro oostkamp, '.
+			'herstellingen, repairs, philips, panasonic, sony, technics, nokia, tv-vlaanderen, '.
+			'tvvlaanderen, tv vlaanderen, oostkamp, brugge, waardamme, ruddervoorde, hertsberge, '.
+			'vlaanderen, west vlaanderen, west-vlaanderen, oost vlaanderen, oost-vlaanderen';
+		$document->addKeywords($keywords);
 
 		$document->setFavicon('public/images/icons/favicon.ico');
 
 		$document->addCss('public/css/base.css');
+		$document->addIeCss('public/css/ie-lte6-base.css', 'lte IE 6');
 
 		// {{{ HEADER
 		$header = $document->createElement('div');

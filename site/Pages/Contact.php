@@ -145,8 +145,9 @@ class Pages_Contact extends APages {
 
 			$mailRow = $this->document->createElement('tr');
 			$mailElement = $this->document->createElement('td', 'naam:');
+			$mailElement->setAttribute('class', 'mlbl');
 			if(isset(Session::sess()->mailSend) && !isset(Session::sess()->mailSend->name))
-				$mailElement->setAttribute('class', 'wrong');
+				$mailElement->setAttribute('class', 'mlbl wrong');
 			$mailRow->appendChild($mailElement);
 			$mailElement = $this->document->createElement('td');
 			$mailInput = $this->document->createElement('input');
@@ -161,8 +162,9 @@ class Pages_Contact extends APages {
 
 			$mailRow = $this->document->createElement('tr');
 			$mailElement = $this->document->createElement('td', 'telefoon:');
+			$mailElement->setAttribute('class', 'mlbl');
 			if(isset(Session::sess()->mailSend) && !isset(Session::sess()->mailSend->tel))
-				$mailElement->setAttribute('class', 'wrong');
+				$mailElement->setAttribute('class', 'mlbl wrong');
 			$mailRow->appendChild($mailElement);
 			$mailElement = $this->document->createElement('td');
 			$mailInput = $this->document->createElement('input');
@@ -177,8 +179,9 @@ class Pages_Contact extends APages {
 
 			$mailRow = $this->document->createElement('tr');
 			$mailElement = $this->document->createElement('td', 'email:');
+			$mailElement->setAttribute('class', 'mlbl');
 			if(isset(Session::sess()->mailSend) && !isset(Session::sess()->mailSend->email))
-				$mailElement->setAttribute('class', 'wrong');
+				$mailElement->setAttribute('class', 'mlbl wrong');
 			$mailRow->appendChild($mailElement);
 			$mailElement = $this->document->createElement('td');
 			$mailInput = $this->document->createElement('input');
@@ -193,8 +196,9 @@ class Pages_Contact extends APages {
 
 			$mailRow = $this->document->createElement('tr');
 			$mailElement = $this->document->createElement('td', 'bericht:');
+			$mailElement->setAttribute('class', 'mlbl');
 			if(isset(Session::sess()->mailSend) && !isset(Session::sess()->mailSend->message))
-				$mailElement->setAttribute('class', 'wrong');
+				$mailElement->setAttribute('class', 'mlbl wrong');
 			$mailRow->appendChild($mailElement);
 			$mailElement = $this->document->createElement('td');
 			if(isset(Session::sess()->mailSend) && isset(Session::sess()->mailSend->message))
@@ -202,8 +206,8 @@ class Pages_Contact extends APages {
 			else
 				$mailInput = $this->document->createElement('textarea');
 			$mailInput->setAttribute('name', 'bericht');
-			$mailInput->setAttribute('cols', 90);
-			$mailInput->setAttribute('rows', 15);
+			//$mailInput->setAttribute('cols', 90);
+			//$mailInput->setAttribute('rows', 15);
 			$mailElement->appendChild($mailInput);
 			$mailRow->appendChild($mailElement);
 
