@@ -68,11 +68,11 @@ class Pages_Contact extends APages {
 
 			$links = $this->document->createElement('p');
 			$routeLink = $this->document->createElement('a', 'route');
-			$routeLink->setAttribute('href', $this->basepath.'/contact/route');
+			$routeLink->setAttribute('href', $this->basepath.'contact/route');
 			$routeLink->setAttribute('title', 'route');
 			$links->appendChild($routeLink);
 			$mailLink = $this->document->createElement('a', 'email');
-			$mailLink->setAttribute('href', $this->basepath.'/contact/email');
+			$mailLink->setAttribute('href', $this->basepath.'contact/email');
 			$mailLink->setAttribute('title', 'email');
 			$mailLink->setAttribute('style', 'margin-left: 10px');
 			$links->appendChild($mailLink);
@@ -139,7 +139,7 @@ class Pages_Contact extends APages {
 
 			$mailForm = $this->document->createElement('form');
 			$mailForm->setAttribute('method', 'post');
-			$mailForm->setAttribute('action', $this->basepath.'/contact/sendmail');
+			$mailForm->setAttribute('action', $this->basepath.'contact/sendmail');
 
 			$mailTable = $this->document->createElement('table');
 
@@ -303,7 +303,7 @@ class Pages_Contact extends APages {
 					if(mail($toHerst['to'], $toHerst['subject'], $toHerst['message'], $toHerst['header']) &&
 						mail($toClient['to'], $toClient['subject'], $toClient['message'], $toClient['header'])) {
 							unset(Session::sess()->mailSend);
-							header('Location: '.$this->basepath.'/contact');
+							header('Location: '.$this->basepath.'contact');
 						} else {
 							if($this->pageType == IPages::XHTML) {
 								$this->document->setTitleAppend($this->document->getTitleAppend().' - email');
@@ -320,7 +320,7 @@ class Pages_Contact extends APages {
 							}
 						}
 				} else {
-					header('Location: '.$this->basepath.'/contact/email');
+					header('Location: '.$this->basepath.'contact/email');
 				}
 			}
 		} else {
