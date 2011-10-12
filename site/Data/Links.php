@@ -57,6 +57,11 @@ class Data_Links {
 				'url' => 'http://www.technomate.com/',
 				'logo' => 'logos/technomate.jpg'
 			),
+			array(
+				'name' => 'Astra',
+				'url' => 'http://www.lyngsat.com/astra19.html',
+				'logo' => 'logos/astra.gif'
+			),
 		);
 	}
 
