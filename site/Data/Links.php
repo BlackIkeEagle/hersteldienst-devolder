@@ -30,12 +30,12 @@ class Data_Links {
 			array(
 				'name' => 'Samsung',
 				'url' => 'http://www.samsung.com/be/',
-				'logo' => 'logos/samsung.gif'
+				'logo' => 'logos/samsung.jpg'
 			),
 			array(
 				'name' => 'LG',
 				'url' => 'http://www.lg.com/be_ne/',
-				'logo' => 'logos/lg.gif'
+				'logo' => 'logos/lg.jpg'
 			),
 		);
 	}
