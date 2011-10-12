@@ -37,6 +37,16 @@ class Data_Verkoop {
 				'url' => 'http://www.sony.be/',
 				'logo' => 'logos/sony.gif'
 			),
+			array(
+				'name' => 'Samsung',
+				'url' => 'http://www.samsung.com/be/',
+				'logo' => 'logos/samsung.jpg'
+			),
+			array(
+				'name' => 'LG',
+				'url' => 'http://www.lg.com/be_ne/',
+				'logo' => 'logos/lg.jpg'
+			),
 		);
 	}
 
