@@ -79,7 +79,7 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Belgacom Tv',
-				'url' => 'http://www.belgacomtv.be/',
+				'url' => 'http://www.belgacom.be/belgacom/be-nl/category/c_television_l.page?',
 				'logo' => 'logos/belgacomtv.jpg'
 			),
 			array(
