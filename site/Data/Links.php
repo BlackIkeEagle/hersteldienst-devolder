@@ -10,7 +10,7 @@ class Data_Links {
 			array(
 				'name' => 'Panasonic',
 				'url' => 'http://www.panasonic.be/',
-				'logo' => 'logos/panasonic.gif'
+				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Jb Systems',
@@ -20,12 +20,12 @@ class Data_Links {
 			array(
 				'name' => 'Philips',
 				'url' => 'http://www.philips.be/',
-				'logo' => 'logos/philips.gif'
+				'logo' => 'logos/philips.jpg'
 			),
 			array(
 				'name' => 'Sony',
 				'url' => 'http://www.sony.be/',
-				'logo' => 'logos/sony.gif'
+				'logo' => 'logos/sony.jpg'
 			),
 			array(
 				'name' => 'Samsung',
@@ -70,7 +70,7 @@ class Data_Links {
 			array(
 				'name' => 'Astra',
 				'url' => 'http://www.lyngsat.com/astra19.html',
-				'logo' => 'logos/astra.gif'
+				'logo' => 'logos/astra.jpg'
 			),
 		);
 	}
@@ -79,7 +79,7 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Belgacom Tv',
-				'url' => 'http://www.belgacom.be/belgacom/be-nl/category/c_television_l.page?',
+				'url' => 'http://www.belgacomtv.be/',
 				'logo' => 'logos/belgacomtv.jpg'
 			),
 			array(

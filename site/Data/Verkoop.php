@@ -10,7 +10,7 @@ class Data_Verkoop {
 			array(
 				'name' => 'Panasonic',
 				'url' => 'http://www.panasonic.be/',
-				'logo' => 'logos/panasonic.gif'
+				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Jb Systems',
@@ -25,17 +25,17 @@ class Data_Verkoop {
 			array(
 				'name' => 'Philips',
 				'url' => 'http://www.philips.be/',
-				'logo' => 'logos/philips.gif'
+				'logo' => 'logos/philips.jpg'
 			),
 			array(
 				'name' => 'Panasonic',
 				'url' => 'http://www.panasonic.be/',
-				'logo' => 'logos/panasonic.gif'
+				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Sony',
 				'url' => 'http://www.sony.be/',
-				'logo' => 'logos/sony.gif'
+				'logo' => 'logos/sony.jpg'
 			),
 			array(
 				'name' => 'Samsung',

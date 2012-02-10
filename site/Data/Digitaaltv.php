@@ -19,7 +19,7 @@ class Data_Digitaaltv {
 		return array(
 			array(
 				'name' => 'Belgacom Tv',
-				'url' => 'http://www.belgacom.be/belgacom/be-nl/category/c_television_l.page?',
+				'url' => 'http://www.belgacomtv.be/',
 				'logo' => 'logos/belgacomtv.jpg'
 			),
 			array(
