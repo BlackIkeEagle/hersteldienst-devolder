@@ -64,7 +64,7 @@ class Data_Verkoop {
 			),
 			array(
 				'name' => 'Technomate',
-				'url' => 'http://www.technomate.com/software_updates.php',
+				'url' => 'http://www.technomate.com/support/',
 				'logo' => 'logos/technomate.jpg'
 			),
 		);
