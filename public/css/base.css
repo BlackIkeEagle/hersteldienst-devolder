@@ -48,6 +48,11 @@ th {
 	text-align: left;
 }
 
+td.olbl {
+	width: 60px;
+}
+
+
 input {
 	margin-left: 1px;
 	margin-right: 1px;

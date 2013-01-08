@@ -83,21 +83,37 @@ class Pages_Contact extends APages {
 				'Openingsuren'
 			);
 			$this->content->appendChild($titleHours);
-			$hours = $this->document->createElement(
-				'p',
-				'Ma - Vr: 8.00u tot 20.00u'
-			);
-			$this->content->appendChild($hours);
-			$hours = $this->document->createElement(
-				'p',
-				'Za : 8.00u tot 17.30u'
-			);
-			$this->content->appendChild($hours);
-			$hours = $this->document->createElement(
-				'p',
-				'Zondag gesloten'
-			);
-			$this->content->appendChild($hours);
+
+			$table = $this->document->createElement('table');
+
+			$p = $this->document->createElement('p', 'De vermelde openingsuren zijn op afspraak, altijd best eerst telefoneren.');
+			$this->content->appendChild($p);
+
+			$row = $this->document->createElement('tr');
+			$element = $this->document->createElement('td', 'Ma - Vr:');
+			$element->setAttribute('class', 'olbl');
+			$row->appendChild($element);
+			$element = $this->document->createElement('td', '8.00u tot 20.00u');
+			$row->appendChild($element);
+			$table->appendChild($row);
+
+			$row = $this->document->createElement('tr');
+			$element = $this->document->createElement('td', 'Za:');
+			$element->setAttribute('class', 'olbl');
+			$row->appendChild($element);
+			$element = $this->document->createElement('td', '8.00u tot 17.30u');
+			$row->appendChild($element);
+			$table->appendChild($row);
+
+			$row = $this->document->createElement('tr');
+			$element = $this->document->createElement('td', 'Zo:');
+			$element->setAttribute('class', 'olbl');
+			$row->appendChild($element);
+			$element = $this->document->createElement('td', 'gesloten');
+			$row->appendChild($element);
+			$table->appendChild($row);
+
+			$this->content->appendChild($table);
 		}
 	}
 
