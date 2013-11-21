@@ -4,7 +4,7 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Yamaha',
-				'url' => 'http://www.yamaha-online.de/',
+				'url' => 'http://nl.yamaha.com/nl/products/audio-visual/',
 				'logo' => 'logos/yamaha.jpg'
 			),
 			array(
