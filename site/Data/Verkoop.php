@@ -54,7 +54,7 @@ class Data_Verkoop {
 		return array(
 			array(
 				'name' => 'Rebox',
-				'url' => 'http://www.rebox.tv/software-updates.html',
+				'url' => 'http://www.rebox.tv/index.php/service-area/downloads',
 				'logo' => 'logos/rebox.jpg'
 			),
 			array(
