@@ -101,7 +101,7 @@ class Pages_Contact extends APages {
 			$element = $this->document->createElement('td', 'Za:');
 			$element->setAttribute('class', 'olbl');
 			$row->appendChild($element);
-			$element = $this->document->createElement('td', '8.00u tot 17.30u');
+			$element = $this->document->createElement('td', 'gesloten');
 			$row->appendChild($element);
 			$table->appendChild($row);
 
