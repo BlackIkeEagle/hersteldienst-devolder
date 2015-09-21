@@ -18,13 +18,13 @@ class Data_Digitaaltv {
 	public function getSuppliersCable() {
 		return array(
 			array(
-				'name' => 'Belgacom Tv',
-				'url' => 'http://www.belgacomtv.be/',
-				'logo' => 'logos/belgacomtv.jpg'
+				'name' => 'Proximus Tv',
+				'url' => 'http://www.proximustv.be/',
+				'logo' => 'logos/proximus.png'
 			),
 			array(
 				'name' => 'Telenet Digitaal Tv',
-				'url' => 'http://telenet.be/222/0/1/nl/thuis/televisie.html',
+				'url' => 'https://www2.telenet.be/nl/tv-en-entertainment',
 				'logo' => 'logos/telenetdigitaltv.jpg'
 			),
 		);
