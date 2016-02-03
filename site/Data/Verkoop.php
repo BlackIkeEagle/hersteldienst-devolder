@@ -59,7 +59,7 @@ class Data_Verkoop {
 			),
 			array(
 				'name' => 'SAB',
-				'url' => 'http://www.sabsatellite.nl/nl/downloads',
+				'url' => 'http://www.sabsatellite.nl/nl/support-software',
 				'logo' => 'logos/sab.jpg'
 			),
 			array(
