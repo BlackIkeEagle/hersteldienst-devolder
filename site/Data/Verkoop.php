@@ -4,17 +4,17 @@ class Data_Verkoop {
 		return array(
 			array(
 				'name' => 'Yamaha',
-				'url' => 'http://nl.yamaha.com/nl/products/audio-visual/',
+				'url' => 'https://nl.yamaha.com/nl/products/audio_visual/',
 				'logo' => 'logos/yamaha.jpg'
 			),
 			array(
 				'name' => 'Panasonic',
-				'url' => 'http://www.panasonic.be/',
+				'url' => 'https://www.panasonic.com/be/nl/',
 				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Jb Systems',
-				'url' => 'http://www.beglec.com/',
+				'url' => 'https://beglec.com',
 				'logo' => 'logos/jbsystems.jpg'
 			),
 		);
@@ -24,27 +24,27 @@ class Data_Verkoop {
 		return array(
 			array(
 				'name' => 'Philips',
-				'url' => 'http://www.philips.be/',
+				'url' => 'https://www.philips.be',
 				'logo' => 'logos/philips.jpg'
 			),
 			array(
 				'name' => 'Panasonic',
-				'url' => 'http://www.panasonic.be/',
+				'url' => 'https://www.panasonic.com/be/nl/',
 				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Sony',
-				'url' => 'http://www.sony.be/',
+				'url' => 'https://www.sony.be/nl',
 				'logo' => 'logos/sony.jpg'
 			),
 			array(
 				'name' => 'Samsung',
-				'url' => 'http://www.samsung.com/be/',
+				'url' => 'https://www.samsung.com/be/',
 				'logo' => 'logos/samsung.jpg'
 			),
 			array(
 				'name' => 'LG',
-				'url' => 'http://www.lg.com/be_ne/',
+				'url' => 'https://www.lg.com/nl',
 				'logo' => 'logos/lg.jpg'
 			),
 		);
@@ -54,17 +54,17 @@ class Data_Verkoop {
 		return array(
 			array(
 				'name' => 'Rebox',
-				'url' => 'http://www.rebox.tv/index.php/service-area/downloads',
+				'url' => 'https://www.rebox.tv',
 				'logo' => 'logos/rebox.jpg'
 			),
 			array(
 				'name' => 'SAB',
-				'url' => 'http://www.sabsatellite.nl/nl/support-software',
+				'url' => 'https://www.sabsatellite.nl/nl',
 				'logo' => 'logos/sab.jpg'
 			),
 			array(
 				'name' => 'Technomate',
-				'url' => 'http://www.technomate.com/support/',
+				'url' => 'https://www.technomate.com',
 				'logo' => 'logos/technomate.jpg'
 			),
 		);

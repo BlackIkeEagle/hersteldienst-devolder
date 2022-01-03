@@ -4,12 +4,12 @@ class Data_Digitaaltv {
 		return array(
 			array(
 				'name' => 'TV Vlaanderen',
-				'url' => 'http://www.tv-vlaanderen.be/',
+				'url' => 'https://www.tv-vlaanderen.be',
 				'logo' => 'logos/tvvlaanderen.jpg'
 			),
 			array(
 				'name' => 'Telesat',
-				'url' => 'http://www.telesat.be/',
+				'url' => 'https://www.telesat.be',
 				'logo' => 'logos/telesat.jpg'
 			),
 		);
@@ -19,12 +19,12 @@ class Data_Digitaaltv {
 		return array(
 			array(
 				'name' => 'Proximus Tv',
-				'url' => 'http://www.proximustv.be/',
+				'url' => 'https://www.proximus.be/pickx/nl',
 				'logo' => 'logos/proximus.png'
 			),
 			array(
 				'name' => 'Telenet Digitaal Tv',
-				'url' => 'https://www2.telenet.be/nl/tv-en-entertainment',
+				'url' => 'https://www2.telenet.be/residential/nl/producten/telenet-tv/',
 				'logo' => 'logos/telenetdigitaltv.jpg'
 			),
 		);

@@ -4,37 +4,37 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Yamaha',
-				'url' => 'http://nl.yamaha.com/nl/products/audio-visual/',
+				'url' => 'https://nl.yamaha.com/nl/products/audio_visual/',
 				'logo' => 'logos/yamaha.jpg'
 			),
 			array(
 				'name' => 'Panasonic',
-				'url' => 'http://www.panasonic.be/',
+				'url' => 'https://www.panasonic.com/be/nl/',
 				'logo' => 'logos/panasonic.jpg'
 			),
 			array(
 				'name' => 'Jb Systems',
-				'url' => 'http://www.beglec.com/',
+				'url' => 'https://beglec.com',
 				'logo' => 'logos/jbsystems.jpg'
 			),
 			array(
 				'name' => 'Philips',
-				'url' => 'http://www.philips.be/',
+				'url' => 'https://www.philips.be',
 				'logo' => 'logos/philips.jpg'
 			),
 			array(
 				'name' => 'Sony',
-				'url' => 'http://www.sony.be/',
+				'url' => 'https://www.sony.be/nl',
 				'logo' => 'logos/sony.jpg'
 			),
 			array(
 				'name' => 'Samsung',
-				'url' => 'http://www.samsung.com/be/',
+				'url' => 'https://www.samsung.com/be/',
 				'logo' => 'logos/samsung.jpg'
 			),
 			array(
 				'name' => 'LG',
-				'url' => 'http://www.lg.com/be_ne/',
+				'url' => 'https://www.lg.com/nl',
 				'logo' => 'logos/lg.jpg'
 			),
 		);
@@ -44,32 +44,32 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'TV Vlaanderen',
-				'url' => 'http://www.tv-vlaanderen.be/',
+				'url' => 'https://www.tv-vlaanderen.be',
 				'logo' => 'logos/tvvlaanderen.jpg'
 			),
 			array(
 				'name' => 'Telesat',
-				'url' => 'http://www.telesat.be/',
+				'url' => 'https://www.telesat.be',
 				'logo' => 'logos/telesat.jpg'
 			),
 			array(
 				'name' => 'Rebox',
-				'url' => 'http://www.rebox.tv',
+				'url' => 'https://www.rebox.tv',
 				'logo' => 'logos/rebox.jpg'
 			),
 			array(
 				'name' => 'SAB',
-				'url' => 'http://www.sabsatellite.nl/nl',
+				'url' => 'https://www.sabsatellite.nl/nl',
 				'logo' => 'logos/sab.jpg'
 			),
 			array(
 				'name' => 'Technomate',
-				'url' => 'http://www.technomate.com/',
+				'url' => 'https://www.technomate.com',
 				'logo' => 'logos/technomate.jpg'
 			),
 			array(
 				'name' => 'Astra',
-				'url' => 'http://www.lyngsat.com/astra19.html',
+				'url' => 'https://www.lyngsat.com/Astra-1KR-1L-1M-1N.html',
 				'logo' => 'logos/astra.jpg'
 			),
 		);
@@ -79,12 +79,12 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Proximus Tv',
-				'url' => 'http://www.proximustv.be/',
+				'url' => 'https://www.proximus.be/pickx/nl',
 				'logo' => 'logos/proximus.png'
 			),
 			array(
 				'name' => 'Telenet Digitaal Tv',
-				'url' => 'https://www2.telenet.be/nl/tv-en-entertainment',
+				'url' => 'https://www2.telenet.be/residential/nl/producten/telenet-tv/',
 				'logo' => 'logos/telenetdigitaltv.jpg'
 			),
 		);
@@ -94,7 +94,7 @@ class Data_Links {
 		return array(
 			array(
 				'name' => 'Start.be',
-				'url' => 'http://oostkamp.start.be',
+				'url' => 'https://oostkamp.start.be',
 				'logo' => 'logos/startbe.gif'
 			)
 		);
