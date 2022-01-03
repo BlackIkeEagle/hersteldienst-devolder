@@ -53,7 +53,7 @@ class Pages_Home extends APages{
 			$content->appendChild($p);
 
 			$row = $this->document->createElement('tr');
-			$element = $this->document->createElement('td', 'Ma - Vr:');
+			$element = $this->document->createElement('td', 'Ma - Do:');
 			$element->setAttribute('class', 'olbl');
 			$row->appendChild($element);
 			$element = $this->document->createElement('td', '8.00u tot 20.00u');
@@ -61,15 +61,15 @@ class Pages_Home extends APages{
 			$table->appendChild($row);
 
 			$row = $this->document->createElement('tr');
-			$element = $this->document->createElement('td', 'Za:');
+			$element = $this->document->createElement('td', 'Vr:');
 			$element->setAttribute('class', 'olbl');
 			$row->appendChild($element);
-			$element = $this->document->createElement('td', 'gesloten');
+			$element = $this->document->createElement('td', '8.00u tot 18.00u');
 			$row->appendChild($element);
 			$table->appendChild($row);
 
 			$row = $this->document->createElement('tr');
-			$element = $this->document->createElement('td', 'Zo:');
+			$element = $this->document->createElement('td', 'Za - Zo:');
 			$element->setAttribute('class', 'olbl');
 			$row->appendChild($element);
 			$element = $this->document->createElement('td', 'gesloten');
